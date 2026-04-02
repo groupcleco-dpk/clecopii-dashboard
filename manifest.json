@@ -1,0 +1,41 @@
+{
+  "name": "Cleco Pii Dashboard",
+  "short_name": "Cleco Pii",
+  "description": "Business Dashboard Cleco Pii Coffee & Eatery",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1823",
+  "theme_color": "#0d7377",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "finance"],
+  "shortcuts": [
+    {
+      "name": "KPI Dashboard",
+      "short_name": "KPI",
+      "description": "Lihat KPI & BEP progress",
+      "url": "./index.html#kpi"
+    },
+    {
+      "name": "Jurnal Harian",
+      "short_name": "Jurnal",
+      "description": "Lihat jurnal transaksi",
+      "url": "./index.html#jurnal"
+    }
+  ]
+}
